@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.beranda{
+    height: 100vh;
+    width: 100%;
+    background-image: url(sampul.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: black;
+    z-index: 1;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #E80F88;
+}
+
+nav ul li{                   
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #E80F88;
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}
+h4{
+    color: #E80F88;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+a.tbl-pink {
+    background:#E80F88;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+a.tbl-pink:hover {
+    background: wheat;
+    text-decoration: none;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #101010;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.biodata{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.biodata img{
+    height: auto;
+    width: 430px;
+}
+.biodata-text{
+    width: 550px;
+}
+
+.title{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.biodata-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.tabel{
+    color: white;
+    border-collapse: collapse;
+    width: 80%;
+    border: 3px solid black;
+}
+.tabel tr td{
+    color: white;
+    padding: 8px 20px;
+    text-align: left;
+}
+.tabel tr:nth-child(even){
+    background:#E80F88;
+}
+
+.riwayat{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.pend h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 250px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:#E80F88;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.card h5 a{
+    color: white;
+    text-decoration: none;
+}
+.card h5 a:hover{
+    color:#E80F88;
+}
+
+.pra p{
+    color:white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: black;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.mywebsite h2{
+    position: relative;
+    color: white;
+    font-weight: 700;
+}
+
+.links{
+    position: relative;
+}
+.links h2{
+    position: relative;
+    color:#E80F88;
+    font-weight: 500;
+    line-height: 50px;
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links li a:hover{
+    color:#E80F88;
+}
+
+.hubungi{
+    position: relative;
+    color: white;
+    font-weight: 700;
+}
+
+.kontak{
+    position: relative;
+}
+.kontak h2{
+    position: relative;
+    color:#E80F88;
+    font-weight: 500;
+    line-height: 50px;
+}
+.kontak li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+}
+.kontak li span:nth-child(1){
+    color: white;
+    font-size: 20px;
+}
+.kontak a{
+    color: white;
+    text-decoration: none;
+}
+.kontak a:hover{
+    color:#E80F88;
+}
+
+@media (max-width: 991px){
+    footer{
+        padding: 40px;
+    }
+    footer .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 768px){
+    footer .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+#copyright {
+    background: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin-top: 5px;
+}
